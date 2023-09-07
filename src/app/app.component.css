@@ -1,0 +1,19 @@
+@keyframes kinetic-loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader {
+    border: 16px solid darkblue;
+    border-top: 16px solid darkorange;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: kinetic-loader 2s linear infinite;
+    margin: 0 auto;
+  }
+  
